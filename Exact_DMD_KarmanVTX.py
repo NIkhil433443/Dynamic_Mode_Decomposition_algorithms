@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.io import loadmat
 
 # Load the data from the .mat file
-path = '/Users/nikhilnikhil/Desktop/databook_python-master/DATA/VORTALL.mat'
+path = 'add path to Vortall'
 data = loadmat(path)
 Vortall = data['VORTALL']
 
